@@ -73,6 +73,15 @@ git add readme.md css/estilos.css
 git add . #agrego todos los archivos que estan (untracked,modified)
 ```
 
+## La historia de commits (La caja de fotos)
+
+```sh
+git log # La historia de commit detallada
+git log --oneline #Historia resumidad
+```
+
+## Nota: Si la consola queda bloqueada y no puedo salir del listado tengo apretar la tecla q (quit)
+
 
 
 
