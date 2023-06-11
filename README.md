@@ -33,13 +33,13 @@ Local Repo (LR): (Una caja donde voy a ir teniendo tomas las fotos que vaya saca
 
 * untracked: (Archivos que estan en el WD pero git no les esta dando seguimiento) Es el estado actual de todos los archivos. 
 * unmodified:(Son archivos que GIT ya esta siguiendo y con respecto al WD, no fueron modificados).
-* modified: Archivos que se encuentran en el repositorio (Estan siendo seguidos por GIT) pero difieren con lo que se encuentra actualmente en el WD-
+* modified: Archivos que se encuentran en el repositorio (Estan siendo seguidos por GIT) pero difieren con lo que se encuentra actualmente en el WD- .
 * staged: Archivos que estan en el area temporal/intermedia
 
 ## El estado de los archivos en si mismo, de forma independiente
 
 ## Saber estado actual de los archivos
-* git estatus
+* git status
 
 ## Mover de una direccion (sacarle una foto):
 
@@ -82,6 +82,14 @@ git log --oneline #Historia resumidad
 
 ## Nota: Si la consola queda bloqueada y no puedo salir del listado tengo apretar la tecla q (quit)
 
+
+## validar que linea fue modificada
+
+git diff
+
+## restaurar la modificacion Git
+
+git restore
 
 
 
