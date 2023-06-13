@@ -101,8 +101,18 @@ Este archivo me sirve para ingnorar carpetas o archivos que no quiero que sean p
 Necesito crear el archivo **.gitignore**
 
 ```hs
-touch .gitignore
+touch .gitignore 
 ```
+
+## importante si esta en gris significa que esta en estatus unmodifiqued, no fue modificado.
+
+
+## Clase 16
+
+
+
+
+
 
 
 
