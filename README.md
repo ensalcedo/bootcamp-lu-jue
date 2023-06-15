@@ -110,10 +110,34 @@ touch .gitignore
 ## Clase 16
 
 
+## Ayuda de GIT
 
+```SH
+git restore --help
+git add --help
+git commit --help
+```
+## banderita o flag se le conoce comando de consola
 
+## Para saber si existe alguna referencia a un repositorio remoto
 
+git remote
 
+## Para saber si existe alguna referencia a un repositorio remoto mas detallado
+
+git remote -v
+
+## Agrego a mir repo local la url del repo remoto
+
+```sh
+git remote add origin https://github.com/ensalcedo/bootcamp-lu-jue.git
+```
+
+## visualizar si se agrego o que url tengo agregada
+
+```sh
+git remote -v
+```
 
 
 
